@@ -15,6 +15,7 @@
     }
 
     html body{
+        border: none;
         text-align: center;
         line-height: 2;
     }
