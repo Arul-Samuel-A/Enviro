@@ -142,7 +142,7 @@
     .hero-div h1{
         word-wrap: break-word;
         align-self: center;
-        width: 60%;
+        width: 70%;
         font-size: 4rem;
         line-height: 1.2em;
     }
@@ -230,14 +230,14 @@ hr{
 .section-one{
     box-sizing: border-box;
     background-color:whitesmoke;
-    border-top: #001400 solid 1px;
 }
 
 
 h1{
+    font-family: "Cantora One", sans-serif;
     align-self: center;
     text-shadow: 0.0625em 0.0625em 0.125em rgba(0, 0, 0, 1);
-    width: 80%;
+    width: 100%;
     padding-top: 4em;
     padding-bottom: 4.5em;
     color: whitesmoke;
@@ -267,6 +267,13 @@ h6{
     font-size: 1rem;
     margin: 0.25em;
 }
+
+.cantora-one-regular {
+    font-family: "Cantora One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 
 button{
@@ -305,10 +312,10 @@ li{
 }
 
 .hero-div{
+    box-sizing: border-box;
     display: flex;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
     width: 100%;
     background-image: url("./images/aerial-view-vibrant-green-trees-forest.webp");
     background-size: cover;
@@ -378,3 +385,12 @@ span{
 }
 
 
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+.animate{
+    animation: fadeIn 4s ease-in-out;
+}
